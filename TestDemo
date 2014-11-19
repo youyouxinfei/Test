@@ -1,0 +1,10 @@
+import java.sql.Timestamp;
+
+public class Text {
+	public static void main(String[] args) throws Exception {
+		String a = "2014-11-16 17:04:47";
+//		Date date = (new SimpleDateFormat("yyyy-MM-dd HH-mm-ss")).parse("2014-11-14 17:04:47");
+		Timestamp da = java.sql.Timestamp.valueOf(a);
+		System.out.println(da);
+	}
+}
